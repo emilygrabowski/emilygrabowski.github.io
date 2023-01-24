@@ -1,0 +1,68 @@
+---
+title: 'Survey Builder in Python'     
+layout: default
+permalink: /survey-builder
+pic: "images/survey-builder.png"      
+shorttext: "Code for a light-weight command-line program to build and run methodological surveys."        
+projectlink: "https://github.com/emilygrabowski/simple-survey-builder"
+tags:
+  - project
+  - highlight
+---
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Emily Grabowski</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+              {% include header.html %}
+              
+               <h2> {{page.title}}      <a href={{page.projectlink}} class="icon brands fa-github"><span class="label">GitHub</span></a>
+                 </h2>              
+               <p> For a project, I was interested in surveying phonetic methodologies in papers in order to understand
+               trends in these methodologies over time.
+               To streamline the survey process, I made some Python scripts in order to help with data processing and management,
+               including automatically indexing, and opening the files, and command-line prompts to register certain features.
+               I consolidated and generalized these scripts for similar applications. </p>                   
+               
+               <p> Some key features in this are:
+                    <ul>
+                    <li>The ability to include multiple partially overlapping entries for each paper</li>
+                    <li>Custom configuration of the number of questions </li>
+                    <li>Simple validation and standardization of input</li> 
+                    </ul>
+                    </p>  
+               
+               
+               <p> Code is  available at <a href={{page.projectlink}}>this GitHub repository.</a> </p>
+
+							
+						</div>
+					</div>
+
+  {% include sidebar.html %}
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

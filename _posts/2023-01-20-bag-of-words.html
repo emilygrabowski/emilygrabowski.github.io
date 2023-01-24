@@ -1,0 +1,58 @@
+---
+title: 'Introduction to bag-of-words and sentiment analysis'     
+layout: default
+permalink: /demo-bag-of-words  
+pic: "images/sentiment.png"      
+shorttext: "Gentle introduction to text analysis and representations for non-major computer science students."     
+projectlink: "https://github.com/emilygrabowski/demos-tutorials/tree/main/text_analysis"
+tags:
+  - demo
+  - highlight
+---
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Emily Grabowski</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+              {% include header.html %}
+              
+              <h2> {{page.title}}      <a href={{page.projectlink}} class="icon brands fa-github"><span class="label">GitHub</span></a>
+                 </h2>                   
+               <p> 1-hr introduction to the central concept in text analysis of converting text to numerical representations.
+               Focus on bag-of-words representations and a brief application using logistic regression for
+               sentiment analysis</p>  
+               
+               
+               <p> Code available  <a href={{page.projectlink}}>here.</a> </p>
+
+							
+						</div>
+					</div>
+
+  {% include sidebar.html %}
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
