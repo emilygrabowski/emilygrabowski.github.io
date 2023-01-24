@@ -2,13 +2,6 @@
  <div id="sidebar">
   <div class="inner">
 
-   <!-- Search -->
-    <section id="search" class="alt">
-     <form method="post" action="#">
-      <input type="text" name="query" id="query" placeholder="Search" />
-     </form>
-    </section>
-
    <!-- Menu -->
     <nav id="menu">
      <header class="major">
@@ -26,22 +19,25 @@
      <header class="major">
       <h2>News and Updates</h2>
      </header>
-     <div class="mini-posts">
-      <article>
-      	<p>January, 2023. Presented at the Linguistic Society of America with Jennifer Kuo</p>
+     <div class="mini-posts">   
+     
+     {% for post in site.tags.news limit:4 %}  
+     <article>    
+      	<p>{{post.newsblurb}}</p>
       </article>
 
      </div>
      <ul class="actions">
-      <li><a href="newsandupdates.html" class="button">More</a></li>
-     </ul>
+      <li><a href="{{post.url}}" class="button">More</a></li>
+     </ul>     
+     {% endfor %}
     </section>
 
 
 
    <!-- Footer -->
     <footer id="footer">
-     <p> Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+     <p> Template Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
     </footer>
 
   </div>

@@ -1,3 +1,7 @@
+---
+#yo
+---
+
 <!DOCTYPE HTML>
 <!--
 	Editorial by HTML5 UP
@@ -6,13 +10,12 @@
 -->
 <html>
 	<head>
-		<title>main - Editorial by HTML5 UP</title>
+		<title>Emily Grabowski</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-  {% include sidebar.html %}
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -21,27 +24,27 @@
 					<div id="main">
 						<div class="inner">
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Emily Grabowski</strong></a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									</ul>
-								</header>
+              {% include header.html %}
+
 
 							<!-- Content -->
 								<section>
-									<header class="main">
-										<h1>Curriculum Vitae</h1>
-									</header>
                   
-                  <body>
-               <iframe src="images/CV-Grabowski.pdf" width="100%" height="500px">
-                        </iframe>
-                  </body>
-            <\div>
-          <\div>
+              <center>
+              <h1>Curriculum Vitae</h1>   
+
+               <p><iframe src="images/CV-Grabowski.pdf" width="75%" height="700p" style="border: 2px solid black">
+                        </iframe>                </p>    
+               </center>    
+
+                  
+                  
+          </div>
+          </div>
+          {% include sidebar.html %}
+
+
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

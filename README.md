@@ -1,4 +1,2 @@
 # emilygrabowski.github.io
-
-Testing
-123
+Github website for Emily Grabowski
