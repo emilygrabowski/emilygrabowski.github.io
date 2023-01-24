@@ -3,7 +3,8 @@ title: 'Vowel Clustering Methods'
 layout: default
 date: 2012-08-14
 permalink: /vowel-clustering-project 
-pic: "images/vowel-clustering-optics.png"      
+pic: "images/vowel-clustering-optics.png"       
+projectlink: "https://github.com/jenniferxkuo/vowel-clustering/"
 shorttext: "Project exploring OPTICS as an alternative to the common K-Means clustering alorithm for vowel space description. Collaboration with Jennifer Kuo (UCLA)"
 newsblurb: "<i>January 2023</i>. Gave a talk on comparing vowel clustering algorithms at the Linguistic Society of America with Jennifer Kuo (UCLA)"
 tags:
@@ -32,7 +33,8 @@ tags:
 							<!-- Header -->
               {% include header.html %}
               
-               <h2> {{page.title}} </h2>
+               <h2> {{page.title}}      <a href={{page.projectlink}}" class="icon brands fa-github"><span class="label">GitHub</span></a>
+                 </h2>
               
                <p> This project systematically compares two clustering algorithms: K-means and OPTICS (similar to DBSCAN)
                on both theoretical and empirical levels. The project finds that K-means entails assumptions that both theoretically
@@ -41,12 +43,12 @@ tags:
                
                
                <center>
-               <span class="image"><a href="https://github.com/jenniferxkuo/vowel-clustering/" class="image"><img src="../images/vowel-clustering-example.png" "picture" width = "700p" ></a>
+               <span class="image"><a href={{page.projectlink}} class="image"><img src="../images/vowel-clustering-example.png" "picture" width = "700p" ></a>
                </span>                 
                </center>
                
                <p> This project was delivered at a talk at the LSA Annual Meeting in January 2023 with <a href="https://kuojennifer.com">Jennifer Kuo</a>. </p>
-               <p> The slides and code are available at <a href="https://github.com/jenniferxkuo/vowel-clustering/">this GitHub repository.</a> </p>
+               <p> The slides and code are available at <a href={{page.projectlink}}>this GitHub repository.</a> </p>
 
 							
 						</div>
