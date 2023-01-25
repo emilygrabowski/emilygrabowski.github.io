@@ -1253,8 +1253,7 @@ a.image {
     -webkit-transition: -webkit-transform 0.2s ease;
     -ms-transition: -ms-transform 0.2s ease;
     transition: transform 0.2s ease; }
-  a.image:hover img {
-	outline:inherit;}
+  a.image:hover img {}
 
 /* List */
 ol {
