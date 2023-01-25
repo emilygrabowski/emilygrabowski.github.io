@@ -93,7 +93,7 @@ body {
 body, input, select, textarea {
   color: #7f888f;
   font-family: "Open Sans", sans-serif;
-  font-size: 13pt;
+  font-size: 18pt;
   font-weight: 400;
   line-height: 1.65; }
   @media screen and (max-width: 1680px) {
@@ -128,7 +128,9 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2em 0; }
+  font-size: 1.2em;
+  margin: 0 0 2em 0;
+  }
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
@@ -1252,10 +1254,7 @@ a.image {
     -ms-transition: -ms-transform 0.2s ease;
     transition: transform 0.2s ease; }
   a.image:hover img {
-    -moz-transform: scale(1.075);
-    -webkit-transform: scale(1.075);
-    -ms-transform: scale(1.075);
-    transform: scale(1.075); }
+	outline:inherit;}
 
 /* List */
 ol {
@@ -1270,6 +1269,7 @@ ul {
   margin: 0 0 2em 0;
   padding-left: 1em; }
   ul li {
+  	font-size: 1.2e;
     padding-left: 0.5em; }
   ul.alt {
     list-style: none;
@@ -2088,9 +2088,10 @@ button,
     border-bottom: 0;
     color: inherit;
     font-family: "Roboto Slab", serif;
-    font-size: 1.125em; }
+    font-size: 28px; }
   #header .icons {
-    text-align: right; }
+    text-align: right;
+	width: 10px; }
   @media screen and (max-width: 1680px) {
     #header {
       padding-top: 5em; } }
